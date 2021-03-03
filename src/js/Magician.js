@@ -1,6 +1,6 @@
-import Character from './Character';
+import MathChar from './MathChar';
 
-export default class Magician extends Character {
+export default class Magician extends MathChar {
   constructor(name) {
     super(name, 'Magician');
 

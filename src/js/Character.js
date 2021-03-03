@@ -7,7 +7,9 @@ export default class Character {
     }
 
     if (!chars.includes(type)) {
-      throw new Error('Тип персонажа не удовлетворяет заданным условиям (Bowman, Swordsman, Magician, Daemon, Undead или Zombie)');
+      throw new Error(
+        'Тип персонажа не удовлетворяет заданным условиям (Bowman, Swordsman, Magician, Daemon, Undead или Zombie)'
+      );
     }
 
     this.name = name;
